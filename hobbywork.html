@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Will Heckman's Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
+ 
+</head>
+ 
+  
+  <body>
+    
+    
+    
+                        <!--NAVIGATION MENU-->
+
+   
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name"><a href="index.html">Will Heckman</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="hobbywork.html">Hobby Work</a></li>
+        </ul>
+    </div>
+
+    
+                          <!-- HEADING -->
+    
+    
+    
+<header>
+   <img src="img/profileimage.jpg" alt="Picture of Will Heckman" class="profile-image">
+     <h1 class="tag name">Hello, I’m Will.</h1>
+      <p class="tag location">I live in Macon, GA</p>
+</header>
+    
+    
+    
+    
+                          <!-- LEFT SECTION/HOBBY -->
+    
+    
+
+  <main class="flex">
+     <div class="card">
+       <h2>-HOBBY-</h2>
+        <p>Although I am focused on my developer career I still like to produce music. In my free time producing is often what I'm doing. To the right I have a few examples of my EDM songs and below are pictures of my professional music studio and office.</p>
+       
+       
+       
+       
+                          <!-- SLIDESHOW -->
+     
+
+       
+       
+
+
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="myslides" src="img/studio1.jpg" alt="Picture 1 of music studio" style="width:100%">
+  <img class="myslides" src="img/studio2.jpg" alt="Picture 2 of music studio" style="width:100%">
+  <img class="myslides" src="img/studio3.jpg" alt="Picture 3 of music studio" style="width:100%">
+  <img class="myslides" src="img/studio4.jpg" alt="Picture 4 of music studio" style="width:100%">
+  <img class="myslides" src="img/studio5.jpg" alt="Picture 5 of music studio" style="width:100%">
+  <img class="myslides" src="img/studio7.jpg" alt="Picture 6 of music studio" style="width:100%">
+</div>
+  
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("myslides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+        
+        
+    
+</div> 
+    
+       
+       
+       
+       
+                            <!-- RIGHT SECTION/MUSIC -->
+
+      
+       
+<div class="card">
+   <h2 style="margin: 0 0 40px 0">-MUSIC-</h2>
+  
+  
+  
+  
+  
+                                  <!-- EMBEDDED MUSIC -->
+  
+        
+        
+<audio  style="width:250px;height:32px;margin:20px 25px 0 0;" controls>
+          
+          <source src="audio/Vortex.mp3" type="audio/mp3">
+
+Your browser does not support the audio element.
+</audio>
+  
+        
+        
+<audio style="width:250px;height:32px;margin:20px 25px 0 0;" controls>
+          <source src="audio/Promises.mp3" type="audio/mp3">
+
+Your browser does not support the audio element.
+</audio>
+  
+        
+<audio style="width:250px;height:32px;margin:20px 25px 0 0;" controls>
+          <source src="audio/Temporary_Forever.mp3" type="audio/mp3">
+
+Your browser does not support the audio element.
+</audio>
+  
+        
+<audio style="width:250px;height:32px;margin:20px 25px 0 0;" controls>
+          <source src="audio/Electric_Eyes.mp3" type="audio/mp3">
+
+Your browser does not support the audio element.
+</audio>
+  
+        
+<audio style="width:250px;height:32px;margin:20px 25px 0 0;" controls>
+          <source src="audio/Disco_Love.mp3" type="audio/mp3">
+
+Your browser does not support the audio element.
+</audio>
+         
+
+    </div> 
+     
+   
+
+</main>
+    
+    
+    
+    
+                                      <!-- SOCIAL MEDIA -->
+    
+    
+    
+    
+    <footer>
+      
+      <ul>
+        <li><a href="https://twitter.com/thewillvirgo" target="_blank" class="social twitter">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/will-heckman-630a14141/?trk=uno-choose-ge-no-intent&dl=no" target="_blank" class="social linkedin">LinkedIn</a></li>
+        <li><a href="https://github.com/willheckman91" target="_blank" class="social github">Github</a></li>
+      
+      </ul>
+        <p class="copyright">&copy; 2017     Will Heckman</p>
+      
+    </footer>
+    
+    </body>
+  </html>
